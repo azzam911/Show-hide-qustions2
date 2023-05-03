@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "execa": "latest",
     "target": "es5",
     "module": "esnext",
     "baseUrl": "./",
@@ -15,5 +16,8 @@
       "dom.iterable",
       "scripthost"
     ]
+  },
+  "scripts": {
+    "deploy": "node scripts/gh-pages-deploy.js"
   }
 }
